@@ -1,0 +1,17 @@
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\bin\Debug\net7.0\ParallelStaff.Challenge.Services.deps.json
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\bin\Debug\net7.0\ParallelStaff.Challenge.Services.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\bin\Debug\net7.0\ParallelStaff.Challenge.Services.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\bin\Debug\net7.0\ParallelStaff.Challenge.Domain.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\bin\Debug\net7.0\ParallelStaff.Challenge.Interfaces.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\bin\Debug\net7.0\ParallelStaff.Challenge.Domain.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\bin\Debug\net7.0\ParallelStaff.Challenge.Interfaces.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.csproj.AssemblyReference.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.AssemblyInfoInputs.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.AssemblyInfo.cs
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.csproj.CopyComplete
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\refint\ParallelStaff.Challenge.Services.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ParallelStaff.Challenge.Services.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Services\obj\Debug\net7.0\ref\ParallelStaff.Challenge.Services.dll

@@ -1,0 +1,12 @@
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\bin\Debug\net7.0\ParallelStaff.Challenge.Domain.deps.json
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\bin\Debug\net7.0\ParallelStaff.Challenge.Domain.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\bin\Debug\net7.0\ParallelStaff.Challenge.Domain.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ParallelStaff.Challenge.Domain.csproj.AssemblyReference.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ParallelStaff.Challenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ParallelStaff.Challenge.Domain.AssemblyInfoInputs.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ParallelStaff.Challenge.Domain.AssemblyInfo.cs
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ParallelStaff.Challenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ParallelStaff.Challenge.Domain.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\refint\ParallelStaff.Challenge.Domain.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ParallelStaff.Challenge.Domain.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Domain\obj\Debug\net7.0\ref\ParallelStaff.Challenge.Domain.dll

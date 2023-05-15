@@ -1,0 +1,15 @@
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\bin\Debug\net7.0\ParallelStaff.Challenge.Interfaces.deps.json
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\bin\Debug\net7.0\ParallelStaff.Challenge.Interfaces.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\bin\Debug\net7.0\ParallelStaff.Challenge.Interfaces.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\bin\Debug\net7.0\ParallelStaff.Challenge.Domain.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\bin\Debug\net7.0\ParallelStaff.Challenge.Domain.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.csproj.AssemblyReference.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.AssemblyInfoInputs.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.AssemblyInfo.cs
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.csproj.CopyComplete
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\refint\ParallelStaff.Challenge.Interfaces.dll
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ParallelStaff.Challenge.Interfaces.pdb
+C:\Users\marco\Documents\.NET\ParallelStaff.Challenge\ParallelStaff.Challenge.Interfaces\obj\Debug\net7.0\ref\ParallelStaff.Challenge.Interfaces.dll

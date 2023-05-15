@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BFCYpgNSa17SIb3YxJvaujMMus9LWpCHwaUsUP07fRc=",
+  "Source": "ParallelStaff.Challenge.Api",
+  "BasePath": "_content/ParallelStaff.Challenge.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

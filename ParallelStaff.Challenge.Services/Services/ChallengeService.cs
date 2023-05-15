@@ -8,10 +8,10 @@ namespace ParallelStaff.Challenge.Services.Services
 {
     public class ChallengeService : IChallengeService
     {
-        private readonly IExcelHandlerService _excelHandlerService;
+        private readonly ICSVHandlerService _excelHandlerService;
         private readonly IOpenLibraryService _openLibraryService;
         private readonly Dictionary<string, Book> _cachedBooks = new Dictionary<string, Book>();
-        public ChallengeService(IExcelHandlerService excelHandlerService, IOpenLibraryService openLibraryService)
+        public ChallengeService(ICSVHandlerService excelHandlerService, IOpenLibraryService openLibraryService)
         {
             _excelHandlerService = excelHandlerService;
             _openLibraryService = openLibraryService;
@@ -31,7 +31,7 @@ namespace ParallelStaff.Challenge.Services.Services
                 {
                     var line = reader.ReadLine();
                     var isbns = line.Split(",").ToList();
-                    var isbnsToSearch = RemoveCachedBooks(isbns);
+                    var isbnsToSearch = FilterCachedBooks(isbns);
                     var newBooks = await _openLibraryService.GetBooks(isbnsToSearch);
                     var orderedBooks = OrderBooks(isbns, newBooks);
                     _excelHandlerService.WriteRows(orderedBooks, rowNumber);
@@ -43,13 +43,12 @@ namespace ParallelStaff.Challenge.Services.Services
             return new OkResult();
         }
 
-        private string RemoveCachedBooks(List<string> isbns)
+        private string FilterCachedBooks(List<string> isbns)
         {            
             var result = "";
             isbns.ForEach(isbn =>
             {
-                if (!_cachedBooks.ContainsKey(isbn))
-                    result += $"{isbn},";
+                if (!_cachedBooks.ContainsKey(isbn)) result += $"{isbn},";
             });
             return result;
         }
@@ -59,12 +58,12 @@ namespace ParallelStaff.Challenge.Services.Services
             var books = new List<Book>();
             isbns.ForEach(isbn =>
             {
-                
                 if (_cachedBooks.ContainsKey(isbn)) books.Add(_cachedBooks[isbn]);
                 else books.Add(newBooks[isbn]);
             });
             return books;
         }
+
         private void AddBooksToCache(Dictionary<string, Book> newBooks)
         {
             foreach(var keyValue in newBooks)

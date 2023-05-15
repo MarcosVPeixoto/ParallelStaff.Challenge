@@ -1,6 +1,4 @@
-using ParallelStaff.Challenge.Interfaces.IServices;
-using ParallelStaff.Challenge.Services.Services;
-
+using ParallelStaff.Challenge.Services.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,9 +7,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddMvc().AddXmlDataContractSerializerFormatters();
-builder.Services.AddScoped<IChallengeService, ChallengeService>();
-builder.Services.AddScoped<IOpenLibraryService, OpenLibraryService>();
-builder.Services.AddScoped<ICSVHandlerService, CSVHandlerService>();
+builder.Services.AddServices();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

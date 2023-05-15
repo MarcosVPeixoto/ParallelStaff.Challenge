@@ -21,7 +21,6 @@ namespace ParallelStaff.Challenge.Services.Services
             CreateHeaders();
             PaintHeadersBackGround();
         }
-
         
         private void CreateHeaders()
         {
@@ -34,6 +33,7 @@ namespace ParallelStaff.Challenge.Services.Services
             CustomizeHeader(_worksheet.Cell(1, 7), "Number of pages");
             CustomizeHeader(_worksheet.Cell(1, 8), "Publish Date");
         }
+
         private void PaintHeadersBackGround()
         {
             var range = _worksheet.Range("A1:H1");
@@ -46,6 +46,7 @@ namespace ParallelStaff.Challenge.Services.Services
             cell.Value = headerName;
             cell.Style.Font.Bold = true;
         }
+
         public void WriteRows(List<Book> books, int fileRowNumber)
         {
             var startRow = _currentRow;

@@ -17,12 +17,6 @@ namespace ParallelStaff.Challenge.Services.Services
             return books;
         }       
 
-        private void FillIsbnAndRetrievalTypeFields(Book book, string isbn)
-        {
-            book.ISBN = isbn;
-            book.RetrievalType = RetrievalType.Server;            
-        }
-
         private Dictionary<string, Book> TreatIsbnKeys(Dictionary<string, Book> books)
         {
             var result = new Dictionary<string, Book>();
@@ -35,6 +29,12 @@ namespace ParallelStaff.Challenge.Services.Services
                 FillIsbnAndRetrievalTypeFields(book, isbn);
             }
             return result;
+        }
+
+        private void FillIsbnAndRetrievalTypeFields(Book book, string isbn)
+        {
+            book.ISBN = isbn;
+            book.RetrievalType = RetrievalType.Server;
         }
     }
 }

@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddMvc().AddXmlDataContractSerializerFormatters();
 builder.Services.AddScoped<IChallengeService, ChallengeService>();
 builder.Services.AddScoped<IOpenLibraryService, OpenLibraryService>();
-builder.Services.AddScoped<IExcelHandlerService, ExcelHandlerService>();
+builder.Services.AddScoped<ICSVHandlerService, CSVHandlerService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

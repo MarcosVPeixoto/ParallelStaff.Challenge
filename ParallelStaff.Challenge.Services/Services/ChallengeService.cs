@@ -71,7 +71,7 @@ namespace ParallelStaff.Challenge.Services.Services
             {
                 var book = keyValue.Value;
                 book.RetrievalType = RetrievalType.Cache;
-                _cachedBooks.Add(keyValue.Key, keyValue.Value);
+                _cachedBooks.Add(keyValue.Key, keyValue.Value);                
             }
         }
     }

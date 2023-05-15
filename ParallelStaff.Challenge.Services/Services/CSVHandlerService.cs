@@ -4,7 +4,7 @@ using ParallelStaff.Challenge.Interfaces.IServices;
 
 namespace ParallelStaff.Challenge.Services.Services
 {
-    public class ExcelHandlerService : IExcelHandlerService
+    public class CSVHandlerService : ICSVHandlerService
     {
         private readonly XLWorkbook _workBook = new();
         private readonly IXLWorksheet _worksheet;
@@ -15,7 +15,7 @@ namespace ParallelStaff.Challenge.Services.Services
             { 1, XLColor.FromHtml("4a86e8") }, 
             { 2, XLColor.FromHtml("#cbf1ee") } 
         };
-        public ExcelHandlerService()
+        public CSVHandlerService()
         {
             _worksheet = _workBook.AddWorksheet("new sheet");
             CreateHeaders();

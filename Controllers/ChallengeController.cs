@@ -17,7 +17,7 @@ namespace ParallelStaff.Challenge.Api.Controllers
         [HttpPost]
         [Route("RetrieveBookInfoAndExportToCSV")] 
         
-        public async Task<IActionResult> asd(IFormFile file)
+        public async Task<IActionResult> RetrieveBookInfoAndExportToCSV(IFormFile file)
         {            
             return await _challengeService.RetrieveBookInfoAndExportToCSV(file);
         }
